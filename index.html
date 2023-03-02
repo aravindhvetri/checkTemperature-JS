@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var temp = prompt("Enter your Temperature");
+        if(temp < 0){
+            document.write("This temperature is freezing weather");
+        } 
+        else if (temp > 0 && temp <=10){
+            document.write("This temperature is very cold weather");
+        }
+        else if(temp >10 && temp <=20){
+            document.write("This temperature is cold weather");  
+        }
+        else if(temp >20 && temp <=30){
+            document.write("This temperature is normal weather");  
+        }
+        else if(temp >30 && temp <=40){
+            document.write("This temperature is hot weather");  
+        }
+        else{
+            document.write("this temperature is very hot");
+        }
+    </script>
+</body>
+</html>
